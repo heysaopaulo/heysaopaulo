@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-05 00:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: heysaopaulo/templates/index copy.html:45
+#: heysaopaulo/templates/index.html:45
+msgid "contatoeparceiros"
+msgstr ""
+
+#: heysaopaulo/templates/index copy.html:64
+#: heysaopaulo/templates/index.html:72
+msgid "Vem pedalar com&nbsp;a&nbsp;gente!"
+msgstr ""
+
+#: heysaopaulo/templates/index copy.html:143
+#: heysaopaulo/templates/index.html:151
+msgid "<p>quote</p><small>quem</small>"
+msgstr ""
+
+#: heysaopaulo/templates/index copy.html:147
+#: heysaopaulo/templates/index.html:155
+msgid "texto grande de informação"
+msgstr ""
+
+#: heysaopaulo/templates/index copy.html:162
+#: heysaopaulo/templates/index.html:170
+msgid "texto grande tours e reservas"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:32
+msgid "Toggle navigation"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:37
+msgid "HEY!SãoPaulo"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:41
+msgid "home"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:42
+msgid "info"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:43 heysaopaulo/templates/index.html:83
+msgid "agenda"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:44 heysaopaulo/templates/index.html:88
+#: heysaopaulo/templates/index.html:183
+msgid "fotos"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:102
+msgid "São Paulo de bike é linda!"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:108
+msgid "Quem pedala desbrava!"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:114
+msgid "Vem conhecer SP com vento no rosto :)"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:148
+msgid "info."
+msgstr ""
+
+#: heysaopaulo/templates/index.html:165
+msgid "Tour<span class=\"pink\">&amp;</span>Reservas:"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:186
+msgid "Veja&nbsp;algumas&nbsp;fotos de&nbsp;nossos&nbsp;tours"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:252
+msgid "Contato"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:253
+msgid ""
+"Para agendar seu passeio ou se tiver sugestões, envie-nos uma mensagem aqui "
+"ou por email em: <a href=\"mailto:hey@heysaopaulo.com.br\">hey@heysaopaulo."
+"com.br"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:255
+msgid "nome"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:258
+msgid "email"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:261
+msgid "assunto"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:274
+msgid "texto grande parceiros"
+msgstr ""
+
+#: heysaopaulo/templates/index.html:325
+msgid "HEY!São Paulo® 2013 todos os direitos reservados"
+msgstr ""

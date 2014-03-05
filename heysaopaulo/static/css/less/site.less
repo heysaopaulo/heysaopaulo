@@ -1,0 +1,449 @@
+@import "/bower_components/bootstrap/less//bootstrap.less";
+
+// .test {
+//     margin-top: 102px;
+//     background-color: #71BE44;
+//     width: 90%;
+//     height: 422px;
+//     position: absolute;
+// }
+
+// ------------ Whole site ------------
+
+@font-face {
+    font-family: 'walsheim';
+    src: url('../myfonts/walsheim.eot');
+    src: url('../myfonts/walsheim.eot?#iefix') format('embedded-opentype'),
+         url('../myfonts/walsheim.woff') format('woff'),
+         url('../myfonts/walsheim.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'f-Black';
+  src: url("../myfonts/f-Black.eot");
+  src: local("☺"), url("../myfonts/f-Black.woff") format("woff"), url("../myfonts/f-Black.ttf") format("truetype"), url("../myfonts/f-Black.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'f-Book';
+  src: url("../myfonts/f-Book.eot");
+  src: local("☺"), url("../myfonts/f-Book.woff") format("woff"), url("../myfonts/f-Book.ttf") format("truetype"), url("../myfonts/f-Book.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'smudger';
+    src: url('../myfonts/smudgerlet.eot');
+    src: url('../myfonts/smudgerlet.eot') format('embedded-opentype'),
+         url('../myfonts/smudgerlet.woff') format('woff'),
+         url('../myfonts/smudgerlet.ttf') format('truetype');
+}
+
+@text-color: #742D91;
+@carousel-control-color: @text-color;
+@carousel-caption-color: @text-color;
+@carousel-indicator-border-color: @text-color;
+@carousel-indicator-active-bg: @text-color;
+@hey-yellow: #D3DE25;
+@hey-orange: #F3702E;
+@hey-blue-light: #2FACE2;
+@hey-green: #71BE44;
+@hey-pink: #EC218D;
+
+.pink {
+    color: @hey-pink;
+}
+
+.yellow {
+    color: @hey-yellow;
+}
+
+.orange {
+    color: @hey-orange;
+}
+
+body {
+    font-family: 'f-Book';
+    padding-top:  50px;
+    background-image: url('../imgs/background.png');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'f-Black';
+    letter-spacing: -0.03em;
+}
+
+.page {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+.last {
+    padding-bottom: 80px;
+}
+
+// ------------ navbar ------------
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000 !important;
+    background-color: inherit;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.out {
+  padding: 0;
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+.out ul {
+  list-style: none;
+  margin-left: -20px;
+}
+
+.out ul:after {
+  clear: both;
+}
+.out ul > li {
+  position: relative;
+  display: inline;
+  color: #333;
+}
+.out ul > li > a {
+  position: relative;
+  padding: 0;
+  color: #333;
+}
+
+.out ul > li > a:hover,
+.out ul > li > a:focus {
+  text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+// ------------ Home row ------------
+
+.logo {
+    max-height: 100px;
+    width: auto;
+}
+
+.oh {
+    margin-top: -68px;
+    padding-left: 24px;
+}
+
+.vem {
+    font-size: 34px;
+    color: @hey-orange;
+}
+
+.menu > li,
+.menu > li > a {
+    font-family: "f-Black";
+    font-size: 30px !important;
+    color: @text-color !important;
+}
+
+.list-icon {
+    width: 2em;
+}
+
+@media (min-width: @screen-md-min) {
+    .logo {
+        margin-top: -30px;
+        padding-bottom: 50px;
+    }
+
+    .vem {
+        margin-top: 30px;
+    }
+
+    .vemd {
+        margin-top: -70px;
+    }
+
+    div.fb-like-box {
+        margin-left: -20px;
+    }
+
+    .overlap-md > div {
+        margin-top: -20px;
+    }
+}
+
+#carousel-home {
+    box-shadow: -3px 3px 0px 2px #61A744;
+    margin: 0 0 10px 0;
+}
+
+.carousel-caption {
+    padding-bottom: 0;
+    font-size: 65px;
+    text-shadow: none;
+    font-family: 'smudger';
+    line-height: 0.9;
+}
+
+#ytplayer {
+    box-shadow: -3px 3px 0px 2px #652A7E;
+}
+
+div.fb-like-box {
+    min-height: 300px;
+}
+
+div.fb-like-box,
+div.fb-like-box > span,
+div.fb-like-box > span > iframe[style],
+div.fb-comments,
+div.fb-comments > span,
+div.fb-comments > span > iframe[style] {
+    width: 100% !important;
+}
+
+.fb-like-box {
+    border: 5px solid #2FACE2;
+    box-shadow: -3px 3px 0px 2px #2796C7;
+    background-color: white;
+}
+
+// ------------ info ------------
+
+blockquote,
+blockquote p {
+    font-size: 24px;
+    color: @hey-pink;
+}
+
+blockquote small {
+    color: desaturate(#EC218D, 20%);
+}
+
+.info {
+    font-size: 100px;
+    text-shadow: -2px 2px 0 darken(@hey-yellow, 10%);
+}
+
+.textcol p {
+    font-size: 16px;
+}
+
+@media (min-width: @screen-md-min) {
+    .textcol:before {
+        content: "";
+        position: absolute;
+        top: 10%;
+        left: -5%;
+        height: 80%;
+        width: 20px;
+        border-left: 4px solid @hey-blue-light;
+    }
+}
+
+// ------------ schedule ------------
+
+@extra-green: 300px;
+
+@media (min-width: @screen-sm-min) {
+    .green {
+        padding-bottom: @extra-green;
+    }
+}
+
+.green {
+    background-color: @hey-green;
+    border-bottom: 5px solid darken(@hey-green, 10%);
+}
+
+.green p,
+.green li {
+    color: white;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+#gcal {
+    width: 100% !important;
+    background-color: @text-color;
+    padding: 5px 8px;
+    box-shadow: -3px 3px 0px 2px darken(@text-color, 10%);
+}
+
+@media (max-width: @screen-sm-max) {
+    #gcal {
+        height: 400px !important;
+    }
+}
+
+// ------------ pics ------------
+@media (min-width: @screen-sm-min) {
+    .aftergreen {
+        margin-top: -@extra-green;
+    }
+}
+
+.veja {
+    font-family: 'smudger';
+    font-size: 40px;
+    color: @hey-pink;
+}
+
+.picsthumbs {
+    margin-top: 20px;
+}
+
+.purplebox,
+.picsthumbs > div > img {
+    background-color: @text-color;
+    padding: 5px 8px;
+    box-shadow: -3px 3px 0px 2px darken(@text-color, 10%);
+}
+
+// ------------ contact ------------
+
+.contato {
+    background-color: @hey-yellow;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    box-shadow: 3px 3px 0px 2px darken(@hey-yellow, 10%);
+}
+
+@media (min-width: @screen-md-min) {
+    .contato:before {
+        content: '';
+        position: absolute;
+        left: 100%;
+        top: 0px;
+        width: 0;
+        height: 0;
+        border-top: 55px solid transparent;
+        border-bottom: 55px solid transparent;
+        border-left: 55px solid darken(@hey-yellow, 10%);
+     }
+
+    .contato:after{
+        content: '';
+        position: absolute;
+        left: 100%;
+        top: 5px;
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-left: 50px solid @hey-yellow;
+        // background-color: @hey-yellow;
+    }
+}
+
+.c2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 9999px;
+    height: 100%;
+    background-color: @hey-yellow;
+    box-shadow: 3px 3px 0px 2px darken(@hey-yellow, 10%);
+    z-index: -10;
+}
+
+@media (min-width: @screen-sm-min) {
+    .c2:after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        right: 0;
+        width: 9999px;
+        height: 60%;
+        background-color: @hey-yellow;
+        box-shadow: 3px 3px 0px 2px darken(@hey-yellow, 10%);
+        z-index: -100;
+    }
+}
+
+@input-border-radius: 0;
+@input-color: @text-color;
+@input-color-placeholder: lighten(@text-color, 40%);
+
+.contacticon {
+    width: 120px;
+}
+
+.c2 h3 {
+    font-family: "f-Book";
+}
+
+.send {
+    background-color: @hey-blue-light;
+    color: @hey-yellow;
+    font-family: "f-Black";
+    border-radius: 50%;
+    padding: 4px;
+    margin-bottom: 2px;
+    margin-left: -20px;
+    box-shadow: 1px -1px 0px 1px #2796C7;
+    position: absolute;
+    bottom: 0
+}
+
+.parcol {
+    margin-left: 5%
+}
+
+.partner > div > img {
+    box-shadow: -2px 2px 0px 1px darken(#ccc, 10%);
+}
+
+.first {
+    margin-top: 70px !important;
+}
+
+
+.partner {
+    margin-top: 20px;
+}
+
+// ------------ footer ------------
+
+.footerend {
+    margin-top: -10px;
+    padding-top: 80px;
+    background-color: @hey-orange;
+    border-top: 5px solid #C85D24;
+    z-index: -1000;
+}
+
+@media (min-width: @screen-sm-min) {
+    .footerend {
+        margin-top: -95px;
+        padding-top: 180px;
+    }
+}
+
+
+.footer {
+    background-color: #C85D24;
+    color: black;
+    padding-top: 1em;
+}

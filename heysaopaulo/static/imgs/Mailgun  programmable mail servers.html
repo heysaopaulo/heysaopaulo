@@ -1,0 +1,560 @@
+<!doctype html>
+
+
+
+
+<html lang="en">
+<head>
+    
+    <script src="https://cdn.optimizely.com/js/32694127.js"></script>
+
+    <title>Mailgun: programmable mail servers</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <meta name="viewport" content="width=device-width">
+
+    <!-- <link href="/css/reset.css?138612365688" media="screen" rel="stylesheet" type="text/css" /> -->
+    <link href="/css/jquery/smoothness/jquery-ui-1.8rc3.custom.css?138612365688" media="screen" rel="stylesheet" type="text/css" />
+
+    <link href="/goldeneye/static/css/mg.css?138612365688" media="screen" rel="stylesheet" type="text/css" />
+
+    <link href="/css/print.css?138612365688" media="print" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery/jquery-1.7.2.min.js?138612365688" type="text/javascript"></script>
+    <script src="/js/jquery/jquery.validate.min.js?138612365688" type="text/javascript"></script>
+    <script src="/js/jquery/jquery.cookie.min.js?138612365688" type="text/javascript"></script>
+    <script src="/js/jquery/jquery-ui-1.8.16.custom.min.js?138612365688" type="text/javascript"></script>
+    <script src="/js/jquery/jquery.watermark.min.js?138612365688" type="text/javascript"></script>
+    <script src="/js/jquery/jquery.custom-plugins.js?138612365688" type="text/javascript"></script>
+
+    <script src="/js/date.format.js?138612365688" type="text/javascript"></script>
+    <script src="/js/json2.js?138612365688" type="text/javascript"></script>
+    <script src="/js/underscore-min.js?138612365688" type="text/javascript"></script>
+    <script src="/js/backbone-min.js?138612365688" type="text/javascript"></script>
+
+    <script src="/js/highcharts/highcharts.js?138612365688" type="text/javascript"></script>
+
+    <script src="/js/components.js?138612365688" type="text/javascript"></script>
+    <script src="/js/cp/base.js?138612365688" type="text/javascript"></script>
+
+    <script src="/js/default.js?138612365688" type="text/javascript"></script>
+
+    <script src="/js/EHawkTalon_0100.js?138612365688" type="text/javascript"></script>
+
+    
+
+
+    <script type = "text/javascript">
+      
+    $(function() {
+          $("input:button, input:submit").button();
+          $("input[name = email]").focus();
+    });
+    
+
+    </script>
+
+    
+    <script src="https://js.stripe.com/v1/?138612365688" type="text/javascript"></script>
+    <script type = "text/javascript">
+      Stripe.setPublishableKey('pk_5MYrTMQbayGxNieblhfjfDKHzPCmK');
+    </script>
+
+    
+    
+
+    <script type="text/javascript">
+        var pageLoadVars = {
+          'visitor_type' : 'Customer',
+          'customer_type' : "unity_free",
+          'coupon_id' : "",
+          'signup_state' : 'Active',
+          'bamGAVPV' : "",
+          'customer_action': []
+        }
+    </script>
+
+</head>
+
+<body class="cp cp-domains show rs-responsive">
+  
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WN2J6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>
+        var user_email = "timtec@lfdb.com.br";
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WN2J6');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+  <!-- header -->
+    <div class="rs-nav-utility">
+      <div class="rs-container">
+        
+  <ul class="rs-nav rs-pull-right">
+    <li><a href='/'>Home</a></li>
+    <li><a href='/cp/support'>Support</a></li>
+    <li><a href='http://documentation.mailgun.com'>Documentation</a></li>
+    <li class="rs-dropdown rs-utility-dropdown"><a class="rs-dropdown-toggle" href="/cp/accounts/1/edit">
+        timtec@lfdb.com.br,
+            timtec@lfdb.com.br
+        <i class="icon-chevron-down"></i>
+    </a>
+          <ul class="rs-dropdown-menu">
+            <li><a href="/cp/accounts/1/edit">Edit Account Info</a></li>
+            <li class="rs-divider"></li>
+            <li><a href="/sessions/1?_method=delete">Logout</a></li>
+          </ul>
+    </li>
+  </ul>
+
+      </div>
+    </div>
+    <header>
+      <div class="rs-container">
+        <a class="mg-logo" href="/cp"></a>
+      </div>
+    </header>
+
+  <div class="rs-main">
+    <div class="rs-container">
+      <!-- body -->
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="cp-nav" id="cp_tabs">
+  <ul>
+    
+    <li class="">
+      <a href="/cp?domain=m.timtec.com.br" id="tab-my-account">My Account</a>
+    </li>
+
+    
+
+        
+    <li class="active">
+      <a href="/cp/domains?domain=m.timtec.com.br" id="tab-domains">Domains</a>
+    </li>
+
+        
+    <li class="">
+      <a href="/cp/lists?domain=m.timtec.com.br" id="tab-mailinglists">Mailing Lists</a>
+    </li>
+
+        
+    <li class="">
+      <a href="/cp/log?domain=m.timtec.com.br" id="tab-log">Logs</a>
+    </li>
+
+        
+    <li class="">
+      <a href="/cp/routes?domain=m.timtec.com.br" id="tab-routes">Routes</a>
+    </li>
+
+        
+    <li class="">
+      <a href="/cp/stats?domain=m.timtec.com.br" id="tab-stats">Tracking</a>
+    </li>
+
+        
+    <li class="">
+      <a href="/cp/analytics?domain=m.timtec.com.br" id="tab-analytics">Campaigns</a>
+    </li>
+
+        
+    <li class="">
+      <a href="/cp/bounces?domain=m.timtec.com.br" id="tab-bounces">Bounces</a>
+    </li>
+
+        
+    <li class="">
+      <a href="/cp/unsubscribes?domain=m.timtec.com.br" id="tab-unsubscribes">Unsubscribes</a>
+    </li>
+
+        
+    <li class="">
+      <a href="/cp/spamreports?domain=m.timtec.com.br" id="tab-spamreports">Complaints</a>
+    </li>
+
+
+  </ul>
+</nav>
+
+<div class="rs-panel rs-content mg-envelope" style = "margin-top: -2px;">
+  <div class="rs-inner">
+    
+
+<ul class="breadcrumb">
+  <li><a href="/cp/domains">Domains</a> <span class="divider">/</span></li>
+  <li class="active">m.timtec.com.br</li>
+</ul>
+
+<h1>Email domain: m.timtec.com.br</h1>
+
+
+    
+
+
+
+
+<div id="dns-verification-warning" class="mg-notification warning">
+    <strong>Your domain is unverified.</strong>
+    Sending from a custom domain requires that you set up the TXT records to verify sending authorization with SPF and DKIM authentication.
+    Unverified domains are restricted to sending <strong>300 emails/day</strong>.
+    Once you've added the appropriate DNS records, it can take 24-48 hours for them to propagate.
+    <a href="http://documentation.mailgun.com/quickstart.html#verifying-your-domain">More about domain verification</a>.
+</div>
+
+
+
+
+<!-- Domain info -->
+<div class="rs-row module">
+  <div class="span-6">
+    <h3 style='margin: 0pt 0pt 0pt 3pt'>Domain Information:</h3>
+    <pre class='panel'><code>Domain Name  : m.timtec.com.br
+IP Address   : Shared
+Awesome?     : No. <a href='/cp/plans/my/edit'>make it awesome</a></code></pre>
+
+  </div>
+  <div class="span-6">
+    <h3 style='margin: 0pt 0pt 0pt 3pt'>SMTP Authentication:</h3>
+    <pre class='panel'><code>Hostname : smtp.mailgun.org
+Login    : postmaster@m.timtec.com.br
+Password : 4z-tvrsd6ws4 [<a href="/cp/mailboxes/postmaster%40m.timtec.com.br">change password</a>]</code></pre>
+
+  </div>
+</div>
+
+<section class="module">
+  <h2>Sending via SMTP: Quick Help</h2>
+  <ul class="nlist">
+      <li>Mailgun SMTP servers listen on ports <code>25, 587</code> and <code>465 (TLS)</code></li>
+      <li>Use <code>"plain text"</code> SMTP authentication.
+
+          For enhanced security use TLS encryption.</li>
+      <li>Use any address in <code>"From"</code> field in emails you send, but for improved
+          deliverability we recommend to send from a <code>@m.timtec.com.br</code> address</li>
+  </ul>
+</section>
+
+<!-- DNS Info -->
+      
+<section class="module">
+<h2>DNS Records for sending (SPF/DKIM)</h2>
+
+<p>TXT records are required to send email through Mailgun <strong>so we can authenticate your emails properly and optimize deliverability</strong>. Please make changes to your zone and press "Check Records" button to ensure they are set up correctly.</p>
+
+<input type="button" class="button" value="Check Records" id="dns-validate"/>
+
+<table class="standard dns" style='margin-top: 5pt'>
+  <thead>
+      <tr>
+        <th class='tp'>Record Type</th>
+        <th class='host'>Hostname</th>
+        <th class='data'>Value</th>
+      </tr>
+  </thead>
+
+    <tr class="even" id="txtmtimteccombr">
+        <td><code>TXT</code></td>
+        <td><input type="text" readonly class="dns-value js-select" value="m.timtec.com.br"></td>
+        <td class='data'>
+                <div><input type="text" readonly class="dns-value js-select" value="v=spf1 include:mailgun.org ~all"></div>
+        </td>
+      </tr>
+    <tr class="odd" id="txtpic_domainkeymtimteccombr">
+        <td><code>TXT</code></td>
+        <td><input type="text" readonly class="dns-value js-select" value="pic._domainkey.m.timtec.com.br"></td>
+        <td class='data'>
+                <textarea readonly cols="70" rows="5" class="dns-value js-select">k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcTnMBfGt6qPydaKf6qXtqFOYpT1LSiExZSYOZYDETRosjfLTD9bOqojwyFwhnyRexMLaf+x7GdNgUdGS62uz70xDIHPAVtqS/iQK79VsFuk6VdKtdmk0j2kUCOSqhsDalC8dHdECw7HXYY4NWzMdFZ8zaMn83VcSW5mfcBG69HQIDAQAB</textarea>
+        </td>
+      </tr>
+</table>
+</section>
+
+<section class="module">
+<h2>DNS Records for tracking (optional)</h2>
+<p>The CNAME record is optional and only necessary if you want us to track opens or clicks. </p>
+<table class="standard dns" style='margin-top: 5pt'>
+  <thead>
+      <tr>
+        <th class='tp'>Record Type</th>
+        <th class='host'>Hostname</th>
+        <th class='data'>Value</th>
+      </tr>
+  </thead>
+
+    <tr class="even" id="cnameemailmtimteccombr">
+        <td><code>CNAME</code></td>
+        <td><input type="text" readonly class="dns-value js-select" value="email.m.timtec.com.br"></td>
+        <td class='data'><div><input type="text" readonly class="dns-value js-select" value="mailgun.org"></div></td>
+      </tr>
+</table>
+</section>
+
+<section class="module">
+<h2>DNS Records for receiving (optional)</h2>
+
+
+    <p>MX records are required for optimal deliverability and to receive email at your domain. Unless you already have MX records for <code>@m.timtec.com.br</code> pointing to another email provider, update the following records at your DNS provider.
+    </p>
+
+    <p><strong>Warning:</strong> You can have MX records pointing to only one server, otherwise email delivery will be unpredictable. <a href="http://documentation.mailgun.com/faqs.html#can-i-use-the-same-domain-name-for-mailgun-and-for-google-apps-or-another-email-server">Click here for more information.</a></p>
+
+
+    <table class="standard dns">
+      <thead>
+          <tr>
+            <th class='tp'>Record Type</th>
+            <th class='host'>Priority</th>
+            <th class='data'>Mail Server</th>
+          </tr>
+      </thead>
+         <tr class="odd" id="mxmtimteccombr">
+            <td><code>MX</code></td>
+            <td><input type="text" readonly class="dns-value js-select" value="10"></td>
+            <td><input type="text" readonly class="dns-value js-select" value="mxa.mailgun.org"></td>
+         </tr>
+         <tr class="even" id="mxmtimteccombr">
+            <td><code>MX</code></td>
+            <td><input type="text" readonly class="dns-value js-select" value="10"></td>
+            <td><input type="text" readonly class="dns-value js-select" value="mxb.mailgun.org"></td>
+         </tr>
+    </table>
+</section>
+
+<script type="text/javascript">
+$(function() {
+   var validateUrl = "/cp/domains/validate_dns_records/529f774a5a761827c8bb0fbe";
+   Mailgun.Domain.show(validateUrl);
+});
+</script>
+
+
+<!-- Spam filtering options -->
+
+<section class="module">
+<h2>Spam Filtering</h2>
+
+
+
+<p>Mailgun allows you to block incoming spam. Select one of the following options:</p>
+
+
+<table class="standard controls-grid">
+  <colgroup>
+    <col style="width: 20px" />
+  </colgroup>
+  <tr class = "even">
+    <td><input id='spam_disabled' type = "radio" name = "spam_action" value = "disabled" checked></input></td>
+    <td><label for='spam_disabled'>No filtering</label></td>
+  </tr>
+  <tr class = "odd">
+    <td><input id='spam_block' type = "radio" name = "spam_action" value = "block" ></input></td>
+    <td><label for='spam_block'>Block detected spam</label></td>
+  </tr>
+  <tr class = "even">
+    <td><input id='spam_tag' type = "radio" name = "spam_action" value = "tag" ></input></td>
+    <td><label for='spam_tag'>Deliver spam, but add <code>X-Mailgun-SFlag</code> and <code>X-Mailgun-SScore</code> headers</label></td>
+  </tr>
+</table>
+
+<input type="button" class="button" value="Apply" id="apply-spam-action"/>
+
+</section>
+
+<script type="text/javascript">
+
+  $(function () {
+
+  var url = "/cp/domains/set_spam_action/529f774a5a761827c8bb0fbe"
+  Mailgun.Domain.spam_action(url)
+
+  });
+
+</script>
+
+
+<!-- Wildcard options -->
+<section class="module">
+  <h2>Wildcard domain</h2>
+
+
+
+<p>Mailgun allows you to support multiple subdomains of a single domain without actually adding them.</p>
+
+<table class="standard controls-grid">
+  <colgroup>
+    <col style="width: 20px" />
+  </colgroup>
+  <tr class = "even">
+    <td><input id='wildcard_no' type = "radio" name = "wildcard" value = "No" checked></input></td>
+    <td><label for='wildcard_no'>Regular domain</label></td>
+  </tr>
+  <tr class = "odd">
+    <td><input id='wildcard_yes' type = "radio" name = "wildcard" value = "Yes" ></input></td>
+    <td><label for='wildcard_yes'>Wildcard domain</label></td>
+  </tr>
+</table>
+
+<input type="button" class="button" value="Apply" id="apply-wildcard"/>
+
+</section>
+
+<script type="text/javascript">
+  $(function () {
+      var url = "/cp/domains/set_wildcard/529f774a5a761827c8bb0fbe"
+      Mailgun.Domain.wildcard(url)
+  });
+</script>
+
+
+<!-- delete a server -->
+<section class="module">
+<h2>Delete domain</h2>
+
+
+            <p><strong>Warning:</strong> When you delete a domain all associated data will be deleted and will not be recoverable.</p>
+
+
+
+    
+
+    <input type="button" value="Delete domain", id="3ca5d801dce64a36a6e7470c44a1c4aa"/>
+
+    <form action="/cp/domains/529f774a5a761827c8bb0fbe" id="c1cf4d6a89d349a09e7b7693431c8d1f" method="post" style="display:none;"><div style="display:none">
+<input id="_method" name="_method" type="hidden" value="delete" />
+</div>
+
+    </form>
+
+    <script type="text/javascript">
+      $(function(){
+          $("#3ca5d801dce64a36a6e7470c44a1c4aa").click(function(){
+              if(confirm("Do you really want to delete this domain?"))
+                  $("#c1cf4d6a89d349a09e7b7693431c8d1f").submit();
+          });
+      });
+
+      
+    $(function() {
+          $("input:button, input:submit").button();
+          $("input[name = email]").focus();
+    });
+    
+
+    </script>
+
+
+
+  </div>
+</div>
+
+<script type="text/javascript">
+    dataLayer.push({
+        'event': 'logged_in',
+        'user_email': 'timtec@lfdb.com.br',
+        'user_hash': '0d2ebcbaaf323ded1a7345fac71ce1e5db57424802e7fc348cedb52434e5889a',
+        'user_fullname': 'timtec@lfdb.com.br',
+        'company_name': 'timtec@lfdb.com.br',
+        'account_id': '529f76475a761827c8bb0fb9',
+        'plan': 'unity_free plan',
+        'created_timestamp': 1386182215
+    });
+</script>
+
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="rs-footer">
+    <div class="rs-container">
+      
+
+
+    <ul class="rs-links">
+              
+        <li><a href='/cp/support'>Support</a></li>
+        <li><a href='http://documentation.mailgun.com'>Documentation</a></li>
+        <li><a href='http://documentation.mailgun.com/faqs.html'>Faq</a></li>
+        <li><a href='http://blog.mailgun.com'>Blog</a></li>
+        <li><a href='http://twitter.com/#!/mail_gun'>Twitter</a></li>
+        <li><a href="http://www.mailgun.com/team">Team</a></li>
+            <li><a href="/public/terms">Terms of Service</a></li>
+            <li><a href="/public/privacy">Privacy Policy</a></li>
+        <li style="text-align: right; font-weight: normal">Copyright 2010-13 Mailgun, Inc.</li>
+    </ul>
+
+    </div>
+  </footer>
+  
+        <script type='text/javascript'>/*<![CDATA[*/ window.olark||(function(k){var g=window,j=document,a=g.location.protocol=="https:"?"https:":"http:",i=k.name,b="load",h="addEventListener";(function(){g[i]=function(){(c.s=c.s||[]).push(arguments)};var c=g[i]._={},f=k.methods.length;while(f--){(function(l){g[i][l]=function(){g[i]("call",l,arguments)}})(k.methods[f])}c.l=k.loader;c.i=arguments.callee;c.p={0:+new Date};c.P=function(l){c.p[l]=new Date-c.p[0]};function e(){c.P(b);g[i](b)}g[h]?g[h](b,e,false):g.attachEvent("on"+b,e);c.P(1);var d=j.createElement("script"),m=document.getElementsByTagName("script")[0];d.type="text/javascript";d.async=true;d.src=a+"//"+c.l;m.parentNode.insertBefore(d,m);c.P(2)})()})({loader:(function(a){return "static.olark.com/jsclient/loader1.js?ts="+(a?a[1]:(+new Date))})(document.cookie.match(/olarkld=([0-9]+)/)),name:"olark",methods:["configure","extend","declare","identify"]}); olark.identify('8160-428-10-5523');/*]]>*/</script>
+        <script>
+        if(document.getElementById('chat-availability')){
+            olark('api.chat.onOperatorsAway', function() {
+                document.getElementById('chat-availability').style.display = 'none';
+            });
+            olark('api.chat.onOperatorsAvailable', function() {
+                document.getElementById('chat-availability').style.display = 'inline';
+            });
+        }
+        </script>
+        <style type="text/css">
+        #habla_topbar_div{-webkit-animation-name: disabled_animation !important;}
+        </style>
+
+
+  <!-- Scripts -->
+  <script type="application/javascript" src="/goldeneye/static/js/canon.js"></script>
+  <script type="application/javascript">
+
+  $(document).ready(function () {
+
+      var tooltip;
+
+      tooltip = new canon.Tooltip();
+      tooltip.attach($('.tooltip'));
+  });
+
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
