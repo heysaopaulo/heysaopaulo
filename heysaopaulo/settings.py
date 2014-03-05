@@ -44,7 +44,7 @@ INSTALLED_APPS = (
 
     'rosetta-grappelli',
     'rosetta',
-    'debug_toolbar',
+    # 'debug_toolbar',
     'django_extensions',
     'paypal.standard.ipn',
 )
