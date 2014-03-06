@@ -68,6 +68,8 @@ TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'heysaopaulo', 'templates'),)
 
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'heysaopaulo', 'static'),)
 
+STATIC_ROOT = os.path.join(BASE_DIR, "..", "static")
+
 ROOT_URLCONF = 'heysaopaulo.urls'
 
 WSGI_APPLICATION = 'heysaopaulo.wsgi.application'
