@@ -49,10 +49,9 @@
 <div class="navbar-fixed-top container out">
     <div>
         <ul class="navbar-nav">
-            <li class="active"><a href="/pt/">portuguese</a> |</li>
-            <li>&nbsp;<a href="/en/">english</a></li>
+            <li><a class="{% if request.LANGUAGE_CODE == 'pt' %}active{% endif %}" href="/pt/">portuguese</a> |</li>
+            <li>&nbsp;<a class="{% if request.LANGUAGE_CODE == 'en' %}active{% endif %}" href="/en/">english</a></li>
         </ul>
-        <small>{{ request.LANGUAGE_CODE }}</small>
     </div>
 </div>
 
@@ -248,7 +247,7 @@
                 <div class="col-xs-10">
                     <p class="text-center"><img src="{% static "imgs/contact.svg" %}" class="contacticon"></p>
                     <h1 class="text-center">{% trans "Contato" %}</h1>
-                    <p>{% trans 'Para agendar seu passeio ou se tiver sugestões, envie-nos uma mensagem aqui ou por email em: <a href="mailto:hey@heysaopaulo.com.br">hey@heysaopaulo.com.br' %}</a></p>
+                    <p>{% trans 'Para agendar seu passeio ou se tiver sugestões, envie-nos uma mensagem aqui ou por email em: <a href="mailto:hey@heysaopaulo.com.br">hey@heysaopaulo.com.br' %}</p>
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="{% trans 'nome' %}" id="Field13" name="Field13">
                         </div>

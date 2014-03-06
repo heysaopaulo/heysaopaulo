@@ -2,123 +2,154 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-05 00:20+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2014-03-06 03:16+0000\n"
+"Last-Translator:   <s@x.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.7.4\n"
 
 #: heysaopaulo/templates/index copy.html:45
 #: heysaopaulo/templates/index.html:45
 msgid "contatoeparceiros"
-msgstr ""
+msgstr "contato&amp;parceiros"
 
 #: heysaopaulo/templates/index copy.html:64
 #: heysaopaulo/templates/index.html:72
 msgid "Vem pedalar com&nbsp;a&nbsp;gente!"
-msgstr ""
+msgstr "Vem pedalar com&nbsp;a&nbsp;gente!"
 
 #: heysaopaulo/templates/index copy.html:143
 #: heysaopaulo/templates/index.html:151
 msgid "<p>quote</p><small>quem</small>"
 msgstr ""
+"<p>Pedalar em São&nbsp;Paulo com&nbsp;a&nbsp;HEY! foi muito bacana, um dos pontos altos da minha viagem</p>\n"
+"<small>Mark C. Cieslinski.<br> Presidente,<br> Moleskine America, Inc.</small>"
 
 #: heysaopaulo/templates/index copy.html:147
 #: heysaopaulo/templates/index.html:155
 msgid "texto grande de informação"
 msgstr ""
+"<h3 class=\"orange\">São Paulo + turismo + bikes = HEY!</h3>\n"
+"<p>A HEY! oferece tours guiados em São Paulo usando bicicletas dobráveis e mostrando o que a cidade tem de melhor!</p>\n"
+"<p>Desenvolvemos roteiros para desbravar a metrópole. Em nossos passeios, vamos compartilhar com você tudo aquilo que faz de São Paulo fascinante pra gente. Criamos rotas com caminhos agradáveis, que revelam uma cidade cheia de história, cor e sabores.</p>\n"
+"<p>Não importa se você está aqui pela primeira vez, se vem toda semana ou se vive aqui, nossos roteiros são feitos de descobertas para todos. Venha viver uma São Paulo diferente!</p>\n"
+"<h3 class=\"orange\">Porque de bike?</h3>\n"
+"<p>A bicicleta é uma alternativa perfeita para que você possa conhecer mais coisas em menos tempo, fugir do congestionamento claustrofóbico, e ter uma vida mais saudável e divertida.</p>\n"
+"<p>E para a gente, a bicicleta vai além: ela transforma as relações humanas e nos mostra uma outra forma de viver São Paulo. Acredite, aqui em SP há uma cidade linda, interessante e cheia de vida - basta diminuir a velocidade conferi-la de perto e com o coração aberto.</p>\n"
+"<p>E é essa visão com a qual construímos a HEY! e desenvolvemos os roteiros pra&nbsp;vocês.</p>"
 
 #: heysaopaulo/templates/index copy.html:162
 #: heysaopaulo/templates/index.html:170
 msgid "texto grande tours e reservas"
 msgstr ""
+"            <p>Confira nossa agenda de passeios!</p>\n"
+"            <p>Para se inscrever em um deles preencha o formulário de <a href=\"#contact\">contato</a>, ou envie um e-mail para <a href=\"mailto:hey@heysaopaulo.com.br\">hey@heysaopaulo.com.br</a>.\n"
+"            Você também pode entrar em contato das 10h00 às 20h00, de 2a à 6a feira nos nossos telefones:</p>\n"
+"\n"
+"            <ul class=\"list-unstyled\">\n"
+"            <li>+55 11 9 8278 6326</li>\n"
+"            <li>+55 11 9 6429 5225</li>\n"
+"            </ul>\n"
+"\n"
+"            <h3>A fim de personalizar seu passeio?</h3>\n"
+"\n"
+"            <p>Com nossos passeios personalizados, podemos mudar a saída a partir do seu hotel, e contemplar diferentes pontos da cidade, ter duração variada e diferentes pontos da cidade! Aqui a gente faz tudo do seu jeito.</p>\n"
+"\n"
+"            <p>Escreve pra gente para combinar seu tour personalizado!</p>"
 
 #: heysaopaulo/templates/index.html:32
 msgid "Toggle navigation"
-msgstr ""
+msgstr "Navegação"
 
 #: heysaopaulo/templates/index.html:37
 msgid "HEY!SãoPaulo"
-msgstr ""
+msgstr "HEY!SãoPaulo"
 
 #: heysaopaulo/templates/index.html:41
 msgid "home"
-msgstr ""
+msgstr "home"
 
 #: heysaopaulo/templates/index.html:42
 msgid "info"
-msgstr ""
+msgstr "info"
 
 #: heysaopaulo/templates/index.html:43 heysaopaulo/templates/index.html:83
 msgid "agenda"
-msgstr ""
+msgstr "agenda"
 
 #: heysaopaulo/templates/index.html:44 heysaopaulo/templates/index.html:88
 #: heysaopaulo/templates/index.html:183
 msgid "fotos"
-msgstr ""
+msgstr "fotos"
 
 #: heysaopaulo/templates/index.html:102
 msgid "São Paulo de bike é linda!"
-msgstr ""
+msgstr "São Paulo de bike é linda!"
 
 #: heysaopaulo/templates/index.html:108
 msgid "Quem pedala desbrava!"
-msgstr ""
+msgstr "Quem pedala desbrava!"
 
 #: heysaopaulo/templates/index.html:114
 msgid "Vem conhecer SP com vento no rosto :)"
-msgstr ""
+msgstr "Vem conhecer SP com vento no rosto :)"
 
 #: heysaopaulo/templates/index.html:148
 msgid "info."
-msgstr ""
+msgstr "info."
 
 #: heysaopaulo/templates/index.html:165
 msgid "Tour<span class=\"pink\">&amp;</span>Reservas:"
-msgstr ""
+msgstr "Tours<span class=\"pink\">&amp;</span>Reservas:"
 
 #: heysaopaulo/templates/index.html:186
 msgid "Veja&nbsp;algumas&nbsp;fotos de&nbsp;nossos&nbsp;tours"
-msgstr ""
+msgstr "Veja&nbsp;algumas&nbsp;fotos de&nbsp;nossos&nbsp;tours"
 
 #: heysaopaulo/templates/index.html:252
 msgid "Contato"
-msgstr ""
+msgstr "Contato"
 
 #: heysaopaulo/templates/index.html:253
 msgid ""
 "Para agendar seu passeio ou se tiver sugestões, envie-nos uma mensagem aqui "
-"ou por email em: <a href=\"mailto:hey@heysaopaulo.com.br\">hey@heysaopaulo."
-"com.br"
+"ou por email em: <a "
+"href=\"mailto:hey@heysaopaulo.com.br\">hey@heysaopaulo.com.br"
 msgstr ""
+"Para agendar seu passeio ou se tiver sugestões, envie-nos uma mensagem aqui "
+"ou por email em: <a "
+"href=\"mailto:hey@heysaopaulo.com.br\">hey@heysaopaulo.com.br</a>"
 
 #: heysaopaulo/templates/index.html:255
 msgid "nome"
-msgstr ""
+msgstr "nome"
 
 #: heysaopaulo/templates/index.html:258
 msgid "email"
-msgstr ""
+msgstr "email"
 
 #: heysaopaulo/templates/index.html:261
 msgid "assunto"
-msgstr ""
+msgstr "assunto"
 
 #: heysaopaulo/templates/index.html:274
 msgid "texto grande parceiros"
 msgstr ""
+"<h1>Parceiros</h1>\n"
+"<p>A HEY! São Paulo existe hoje pois temos o apoio de amigos e empresas incríveis que também acreditam em uma São Paulo mais humana e que a bicicleta pode ajudar a trilhar esse caminho. Este espaço é dedicado para dizer à vocês, nossos parceiros, nosso muito obrigado!</p>\n"
+"<p>Se você também acredita na humanização de São Paulo, entre em contato conosco, para trocarmos experiências, crescermos juntos e colaborar para uma São Paulo melhor.</p>"
 
 #: heysaopaulo/templates/index.html:325
 msgid "HEY!São Paulo® 2013 todos os direitos reservados"
-msgstr ""
+msgstr "HEY!São Paulo® 2013 todos os direitos reservados"

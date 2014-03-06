@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-05 00:20+0000\n"
-"PO-Revision-Date: 2014-03-05 14:49+0000\n"
+"PO-Revision-Date: 2014-03-06 03:32+0000\n"
 "Last-Translator:   <s@x.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -26,13 +26,13 @@ msgstr "Contact&Partners"
 #: heysaopaulo/templates/index copy.html:64
 #: heysaopaulo/templates/index.html:72
 msgid "Vem pedalar com&nbsp;a&nbsp;gente!"
-msgstr "Come ride with us!"
+msgstr "Come ride with&nbsp;us!"
 
 #: heysaopaulo/templates/index copy.html:143
 #: heysaopaulo/templates/index.html:151
 msgid "<p>quote</p><small>quem</small>"
 msgstr ""
-"<p>Biking in Sao&nbsp;Paulo with&nbsp;HEY! was very nice, one of the highlights on my trip in São Paulo.</p>\n"
+"<p>Biking in São&nbsp;Paulo with&nbsp;HEY! was great, one of the highlights on my trip to São Paulo.</p>\n"
 "<small>Mark C. Cieslinski.<br> President,<br> Moleskine America, Inc.</small>"
 
 #: heysaopaulo/templates/index copy.html:147
@@ -41,26 +41,26 @@ msgid "texto grande de informação"
 msgstr ""
 "<h3 class=\"orange\">São Paulo + Travel + Bikes = HEY!</h3>\n"
 "\n"
-"            <p>HEY! Offers guided tours of Sao Paulo using folding bicycles to show the best of the city.</p>\n"
+"            <p>HEY! Offers guided tours in São Paulo using folding bicycles to show the best of the city.</p>\n"
 "\n"
-"            <p>Desenvolvemos roteiros para desbravar a metrópole. Em nossos passeios, vamos compartilhar com você tudo aquilo que faz de São Paulo fascinante pra gente. Criamos rotas com caminhos agradáveis, que revelam uma cidade cheia de história, cor e sabores.</p>\n"
+"            <p>Our routes are designed from a two wheels, are friendly to all levels, from the beginner to the expert, so everybody can participate. We offer tours to explore the city at its best. In our tours, we will share with you everything that makes São Paulo awesome to us, and borrow our local perspective to you. Come to see a city with rich history, multicultural and filled with great art.</p>\n"
 "\n"
-"            <p>Não importa se você está aqui pela primeira vez, se vem toda semana ou se vive aqui, nossos roteiros são feitos de descobertas para todos. Venha viver uma São Paulo diferente!</p>\n"
+"            <p>It doesn´t matter if you are here for the first time, if you´ve visited many times before or even you live here, our tours are made of discoveries to everyone. Come live a different São Paulo!</p>\n"
 "\n"
-"            <h3 class=\"orange\">Porque de bike?</h3>\n"
+"            <h3 class=\"orange\">São Paulo on a bike? Why?</h3>\n"
 "\n"
-"            <p>A bicicleta é uma alternativa perfeita para que você possa conhecer mais coisas em menos tempo, fugir do congestionamento claustrofóbico, e ter uma vida mais saudável e divertida.</p>\n"
+"            <p>The bicycle is a fun and easy way to see more of the city in a short period of time. Also, you might be aware how chaotic is the traffic in São Paulo... with the bicycle, you can easily manage to avoid it.</p>\n"
 "\n"
-"            <p>E para a gente, a bicicleta vai além: ela transforma as relações humanas e nos mostra uma outra forma de viver São Paulo. Acredite, aqui em SP há uma cidade linda, interessante e cheia de vida - basta diminuir a velocidade conferi-la de perto e com o coração aberto.</p>\n"
+"            <p>And for us, it goes beyond: we believe that bicycles can transform human relations, bring us closer the cities and show us a new way to live the city. From the outside, you may believe that São Paulo is just buildings and cars. But you look closer, you will find an amazing city, interesting and filled with cool sights and history. All you have to do is slow the speed down!</p>\n"
 "\n"
-"            <p>E é essa visão com a qual construímos a HEY! e desenvolvemos os roteiros pra vocês.</p>"
+"            <p>And that's the vision that we use in every tour you join us!</p>"
 
 #: heysaopaulo/templates/index copy.html:162
 #: heysaopaulo/templates/index.html:170
 msgid "texto grande tours e reservas"
 msgstr ""
 "            <p>Check our tour schedule!</p>\n"
-"            <p>To subscribe in our tours, please fill the <a href=\"#contact\">contato</a> form, or send us an email <a href=\"mailto:hey@heysaopaulo.com.br\">hey@heysaopaulo.com.br</a>.\n"
+"            <p>To subscribe in our tours, please fill the <a href=\"#contact\">contact</a> form, or send us an email <a href=\"mailto:hey@heysaopaulo.com.br\">hey@heysaopaulo.com.br</a>.\n"
 "            Your can also call us from 10AM to 8PM, from Monday to Friday in our phones:</p>\n"
 "\n"
 "            <ul class=\"list-unstyled\">\n"
@@ -70,7 +70,7 @@ msgstr ""
 "\n"
 "            <h3>Looking for a private tour?</h3>\n"
 "\n"
-"            <p>With our private tours, we can pick you up at your hotel, and make a taylor made route, with personalised activities and sights, and make the tour just way you like! It's definitely the coolest and most convenient way to know the city.</p>\n"
+"            <p>With our private tours, we can pick you up at your hotel, and make a tailor made route, with personalised activities and sights, and make the tour just way you like! It's definitely the coolest and most convenient way to know the city.</p>\n"
 "\n"
 "            <p>Write to us so we can organize your private tour!</p>"
 
@@ -97,23 +97,23 @@ msgstr "Schedule"
 #: heysaopaulo/templates/index.html:44 heysaopaulo/templates/index.html:88
 #: heysaopaulo/templates/index.html:183
 msgid "fotos"
-msgstr "Photos"
+msgstr "photos"
 
 #: heysaopaulo/templates/index.html:102
 msgid "São Paulo de bike é linda!"
-msgstr "Sao Paulo by bike is awesome!"
+msgstr "São Paulo is awesome on two wheels!"
 
 #: heysaopaulo/templates/index.html:108
 msgid "Quem pedala desbrava!"
-msgstr ""
+msgstr "Come see a more human city!"
 
 #: heysaopaulo/templates/index.html:114
 msgid "Vem conhecer SP com vento no rosto :)"
-msgstr "Come to know Sao Paulo with the wind on your face =)"
+msgstr "Discover São Paulo with wind on your face :)"
 
 #: heysaopaulo/templates/index.html:148
 msgid "info."
-msgstr "Info."
+msgstr "info."
 
 #: heysaopaulo/templates/index.html:165
 msgid "Tour<span class=\"pink\">&amp;</span>Reservas:"
@@ -134,11 +134,12 @@ msgid ""
 "href=\"mailto:hey@heysaopaulo.com.br\">hey@heysaopaulo.com.br"
 msgstr ""
 "To schedule your tour or send us any sugestions, send us a message here or "
-"by email: <a href=\"mailto:hey@heysaopaulo.com.br\">hey@heysaopaulo.com.br"
+"by email: <a "
+"href=\"mailto:hey@heysaopaulo.com.br\">hey@heysaopaulo.com.br</a>"
 
 #: heysaopaulo/templates/index.html:255
 msgid "nome"
-msgstr "Name"
+msgstr "name"
 
 #: heysaopaulo/templates/index.html:258
 msgid "email"
@@ -146,27 +147,16 @@ msgstr "email"
 
 #: heysaopaulo/templates/index.html:261
 msgid "assunto"
-msgstr "Subject"
+msgstr "subject"
 
 #: heysaopaulo/templates/index.html:274
 msgid "texto grande parceiros"
 msgstr ""
-"<h3 class=\"orange\">São Paulo + Travel + Bikes = HEY!</h3>\n"
+"<h1>Partners</h1>\n"
+"<p>HEY! São Paulo exists today thanks for the support of our amazing friends and companies that also believes in a more human São Paulo and that the bicycle can help us to make it happen. This space is dedicated to you, our partners - thank you very much!</p>\n"
 "\n"
-"            <p>HEY! Offers guided tours of Sao Paulo using folding bicycles to show the best of the city.</p>\n"
-"\n"
-"            <p>Our team will help you discover a city made by awesome people. A city that is multicultural, filled with gastronomy and arts of all kinds. We'd like to share with you everything that makes Sao Paulo fascinating to us. Our routes are planned with our thoughts on two wheels, from a human perspective.</p>\n"
-"\n"
-"            <p>It doesn´t matter if you are here for the first time, if you´ve visited many times before or even you live here, our tours are made of discoveries to everyone. Come live a different Sao Paulo!</p>\n"
-"\n"
-"            <h3 class=\"orange\">Why by bike?</h3>\n"
-"\n"
-"            <p>Bike is the perfect alternative to scape from the caotic trafic jam. You get to know more things in less time, and also to have fun while you're exploring the city.</p>\n"
-"\n"
-"            <p>And for us, the bicycle goes beyond: it transforms human relations and show us another way to live the city. You may not believe, but there's an amazing São Paulo to see - all you have to do is slow the speed down and check it with you heart open. </p>\n"
-"\n"
-"            <p>And that's the vision that we use in every tour you join us!</p>"
+" <p>If you also believe in humanising São Paulo, please contact us, so we can share experiences, grow together and collaborate for a better city.</p>"
 
 #: heysaopaulo/templates/index.html:325
 msgid "HEY!São Paulo® 2013 todos os direitos reservados"
-msgstr "HEY! Sao Paulo® All rights reserved."
+msgstr "HEY! São Paulo® 2013 All rights reserved."

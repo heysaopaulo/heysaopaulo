@@ -119,14 +119,20 @@ h1, h2, h3, h4, h5, h6 {
 .out ul:after {
   clear: both;
 }
+
 .out ul > li {
   position: relative;
   display: inline;
-  color: #333;
+  color: #999;
 }
+
 .out ul > li > a {
   position: relative;
   padding: 0;
+  color: #999;
+}
+
+.out ul > li > a.active {
   color: #333;
 }
 
@@ -240,7 +246,7 @@ blockquote small {
 
 .info {
     font-size: 100px;
-    text-shadow: -2px 2px 0 darken(@hey-yellow, 10%);
+    // text-shadow: -2px 2px 0 darken(@hey-yellow, 10%);
 }
 
 .textcol p {
