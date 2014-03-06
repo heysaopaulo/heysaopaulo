@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-05 00:20+0000\n"
-"PO-Revision-Date: 2014-03-06 03:32+0000\n"
+"PO-Revision-Date: 2014-03-06 03:36+0000\n"
 "Last-Translator:   <s@x.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: heysaopaulo/templates/index copy.html:45
 #: heysaopaulo/templates/index.html:45
 msgid "contatoeparceiros"
-msgstr "Contact&Partners"
+msgstr "contact&partners"
 
 #: heysaopaulo/templates/index copy.html:64
 #: heysaopaulo/templates/index.html:72
