@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-05 00:20+0000\n"
-"PO-Revision-Date: 2014-03-06 03:36+0000\n"
+"PO-Revision-Date: 2014-03-06 03:37+0000\n"
 "Last-Translator:   <s@x.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -84,15 +84,15 @@ msgstr "HEY! São Paulo"
 
 #: heysaopaulo/templates/index.html:41
 msgid "home"
-msgstr "Home"
+msgstr "home"
 
 #: heysaopaulo/templates/index.html:42
 msgid "info"
-msgstr "Info"
+msgstr "info"
 
 #: heysaopaulo/templates/index.html:43 heysaopaulo/templates/index.html:83
 msgid "agenda"
-msgstr "Schedule"
+msgstr "schedule"
 
 #: heysaopaulo/templates/index.html:44 heysaopaulo/templates/index.html:88
 #: heysaopaulo/templates/index.html:183
